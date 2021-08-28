@@ -1,3 +1,12 @@
 [submodule "week-1-workshop-assignment-the-mandalorians"]
 	path = week-1-workshop-assignment-the-mandalorians
 	url = https://github.com/alibalbars/week-1-workshop-assignment-the-mandalorians
+[submodule "Rick-and-Morty-Character-Search-App"]
+	path = Rick-and-Morty-Character-Search-App
+	url = https://github.com/alibalbars/Rick-and-Morty-Character-Search-App
+[submodule "Star-Wars-Ships-API-Search-App"]
+	path = Star-Wars-Ships-API-Search-App
+	url = https://github.com/alibalbars/Star-Wars-Ships-API-Search
+[submodule "week-5-testing-ali-balbars"]
+	path = week-5-testing-ali-balbars
+	url = https://github.com/alibalbars/week-5-testing-ali-balbars
