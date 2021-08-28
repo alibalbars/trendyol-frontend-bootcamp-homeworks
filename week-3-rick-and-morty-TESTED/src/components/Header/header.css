@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+.Header {
+    
+    height: 100px;
+    background-color: grey;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: url('https://images6.alphacoders.com/909/thumb-1920-909641.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -260px;
+}
+
+.Header h1 {
+    font-family: 'Creepster';
+    font-size: 60px;
+    letter-spacing: 10px;
+    color: white;
+}

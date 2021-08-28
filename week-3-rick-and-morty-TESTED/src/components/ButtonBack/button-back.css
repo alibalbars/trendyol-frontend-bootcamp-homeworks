@@ -1,0 +1,62 @@
+:root {
+    --button-back-border-radius: 3px;
+    --green: #92bCa6;
+    --pink: #dE685E;
+}
+
+.btn-back {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    
+    outline: none;
+    border: none;
+    border-radius: var(--button-back-border-radius);
+    background-color: white;
+    cursor: pointer;
+    background-color: transparent;
+
+    position: relative;
+}
+
+.btn-back span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+    font-size: 16px;
+}
+
+.btn-back::before {
+  content: "";
+  display: block;
+  background-color: var(--pink);
+  width: 0px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .3s;  
+  border-radius: var(--button-back-border-radius);
+}
+
+.btn-back:hover::before {
+    width: 100%;
+}
+
+.btn-back:hover span {
+    color: white;
+}
+
+.pink {
+    background-color: var(--pink);
+}
+
+

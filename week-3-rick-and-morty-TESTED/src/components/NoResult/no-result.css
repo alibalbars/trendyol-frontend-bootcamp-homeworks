@@ -1,0 +1,14 @@
+.no-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100%;
+    padding-top: 120px;
+}
+
+.no-result .no-result-text {
+    font-size: 64px;
+    margin-bottom: 40px;
+}

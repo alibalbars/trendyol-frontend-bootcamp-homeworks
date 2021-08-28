@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1630154700033" clover="3.2.0">
+  <project timestamp="1630154700033" name="All files">
+    <metrics statements="29" coveredstatements="21" conditionals="12" coveredconditionals="6" methods="15" coveredmethods="9" elements="56" coveredelements="36" complexity="0" loc="29" ncloc="29" packages="1" files="2" classes="2"/>
+    <file name="App.js" path="C:\Users\user\Desktop\Projeler\react\rick-and-morty\src\App.js">
+      <metrics statements="15" coveredstatements="7" conditionals="6" coveredconditionals="0" methods="9" coveredmethods="3"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="0" type="cond" truecount="0" falsecount="6"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="52" count="0" type="stmt"/>
+      <line num="54" count="0" type="stmt"/>
+      <line num="56" count="0" type="stmt"/>
+      <line num="66" count="0" type="stmt"/>
+    </file>
+    <file name="utils.js" path="C:\Users\user\Desktop\Projeler\react\rick-and-morty\src\utils.js">
+      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+      <line num="2" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="30" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>

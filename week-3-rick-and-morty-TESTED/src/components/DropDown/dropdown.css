@@ -1,0 +1,64 @@
+:root {
+    --zindex-dropdown: 3;
+}
+
+.Dropdown * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.Dropdown {
+    position: relative;
+    min-width: 125px;
+    user-select: none;
+}
+
+.Dropdown .dropdown-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    height: 40px;
+    cursor: pointer;
+
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    font-weight: bold;
+    font-family: inherit;
+    text-transform: uppercase;
+}
+
+.Dropdown .dropdown-btn:focus ~ .dropdown-content{
+    visibility: visible;
+    opacity: 1;
+}
+
+.Dropdown .dropdown-content {
+    position: absolute;
+    top: 110%;
+    background-color: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    font-family: inherit;
+    font-weight: 500;
+    color: #333;
+    width: 100%;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s ;
+    z-index: var(--zindex-dropdown);
+
+}
+
+.dropdown-content .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 20px;
+    /* transition: background-color 0.2s; */
+}
+
+.dropdown-content .dropdown-item:hover {
+    background-color: #f4f4f4;
+}

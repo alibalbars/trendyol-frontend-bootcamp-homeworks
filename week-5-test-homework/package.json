@@ -1,0 +1,30 @@
+{
+  "name": "week-5-testing-ali-balbars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alibalbars/week-5-testing-ali-balbars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alibalbars/week-5-testing-ali-balbars/issues"
+  },
+  "homepage": "https://github.com/alibalbars/week-5-testing-ali-balbars#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "jest": "^27.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.1.0"
+  }
+}

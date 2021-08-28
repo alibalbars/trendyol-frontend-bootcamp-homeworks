@@ -1,0 +1,43 @@
+:root {
+    --green: #92bCa6;
+    --pink: #dE685E;
+}
+.character-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 50px;
+
+}
+
+.character-detail .btn-back {
+    
+}
+
+.character-detail .card {
+    /* margin: 0 auto; */
+}
+
+.character-detail .btn-back {
+    height: 40px;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    outline: none;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.green {
+    background-color: var(--green);
+}
+
+.pink {
+    background-color: var(--pink);
+}
